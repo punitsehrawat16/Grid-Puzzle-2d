@@ -169,7 +169,7 @@ public class BoardController : MonoBehaviour
                 matchDetector.FindMatches();
 
             if (matches.Count == 0)
-                yield break;
+                break;
 
             // Disable and return matched candies.
             boardRenderer.RemoveMatches(
@@ -194,5 +194,68 @@ public class BoardController : MonoBehaviour
                 )
             );
         }
+
+        // Check if the player has any possible move.
+        if (!HasPossibleMove())
+        {
+            Debug.Log("No possible moves!");
+            // Need to add shuffle part
+        }
+    }
+
+    private bool HasPossibleMove()
+    {
+        for (int x = 0; x < board.Width; x++)
+        {
+            for (int y = 0; y < board.Height; y++)
+            {
+                Vector2Int position =
+                    new Vector2Int(x, y);
+
+                // Try swapping with the right cell.
+                if (x < board.Width - 1)
+                {
+                    board.TrySwap(
+                        position,
+                        Vector2Int.right
+                    );
+
+                    bool hasMatch =
+                        matchDetector.FindMatches().Count > 0;
+
+                    // Swap back.
+                    board.TrySwap(
+                        position + Vector2Int.right,
+                        Vector2Int.left
+                    );
+
+                    if (hasMatch)
+                        return true;
+                }
+
+                // Try swapping with the cell above.
+                if (y < board.Height - 1)
+                {
+                    board.TrySwap(
+                        position,
+                        Vector2Int.up
+                    );
+
+                    bool hasMatch =
+                        matchDetector.FindMatches().Count > 0;
+
+                    // Swap back.
+                    board.TrySwap(
+                        position + Vector2Int.up,
+                        Vector2Int.down
+                    );
+
+                    if (hasMatch)
+                        return true;
+                }
+            }
+        }
+
+        return false;
     }
 }

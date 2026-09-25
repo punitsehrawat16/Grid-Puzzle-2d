@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: dcd285fa4e3bf0445aa7936a3281e4b1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 588097769154151925
+    second: explosionpink03_0
+  - first:
+      213: 1263020543247045204
+    second: explosionpink03_1
+  - first:
+      213: -8854796712208620275
+    second: explosionpink03_2
+  - first:
+      213: -747203913040899534
+    second: explosionpink03_3
+  - first:
+      213: -9006701946998523960
+    second: explosionpink03_4
+  - first:
+      213: 3530080804573178948
+    second: explosionpink03_5
+  - first:
+      213: -5735081744844675190
+    second: explosionpink03_6
+  - first:
+      213: -5223001527946139568
+    second: explosionpink03_7
+  - first:
+      213: -177261256371583413
+    second: explosionpink03_8
+  - first:
+      213: -7418407559207407592
+    second: explosionpink03_9
+  - first:
+      213: 6468166864751615011
+    second: explosionpink03_10
+  - first:
+      213: -484174794991865948
+    second: explosionpink03_11
+  - first:
+      213: -8837596071335815345
+    second: explosionpink03_12
+  - first:
+      213: -6925810617390250384
+    second: explosionpink03_13
+  - first:
+      213: -1458675303136191504
+    second: explosionpink03_14
+  - first:
+      213: 4330621339952418521
+    second: explosionpink03_15
+  - first:
+      213: -1870542970975972543
+    second: explosionpink03_16
+  - first:
+      213: -8872246336042541206
+    second: explosionpink03_17
+  - first:
+      213: 4432998681376081609
+    second: explosionpink03_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: explosionpink03_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 69
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f502af1ec7592800800000000000000
+      internalID: 588097769154151925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosionpink03_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 65
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452d2480e76278110800000000000000
+      internalID: 1263020543247045204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosionpink03_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 70
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0522821e417d1580800000000000000
+      internalID: -8854796712208620275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosionpink03_3
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 69
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2325a6cfff561a5f0800000000000000
+      internalID: -747203913040899534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosionpink03_4
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 61
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c7755b7c44c10380800000000000000
+      internalID: -9006701946998523960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosionpink03_5
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 57
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c6201e9cd5df030800000000000000
+      internalID: 3530080804573178948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosionpink03_6
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 61
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a87a4b0f985e860b0800000000000000
+      internalID: -5735081744844675190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosionpink03_7
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 51
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 058a27178cb2487b0800000000000000
+      internalID: -5223001527946139568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosionpink03_8
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 51
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46488593dd3a8df0800000000000000
+      internalID: -177261256371583413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosionpink03_9
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 37
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 810be5a11a58c0990800000000000000
+      internalID: -7418407559207407592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosionpink03_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 37
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32cd8716e7b83c950800000000000000
+      internalID: 6468166864751615011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosionpink03_11
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 43
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4afef47d69dd749f0800000000000000
+      internalID: -484174794991865948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosionpink03_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 12
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4714ab523d8a5580800000000000000
+      internalID: -8837596071335815345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosionpink03_13
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 24
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07643d020f392ef90800000000000000
+      internalID: -6925810617390250384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosionpink03_14
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 17
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb9ee94a8eb1cbe0800000000000000
+      internalID: -1458675303136191504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosionpink03_15
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 18
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de07900a25791c30800000000000000
+      internalID: 4330621339952418521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosionpink03_16
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 6
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1439fd5141f7a06e0800000000000000
+      internalID: -1870542970975972543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosionpink03_17
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 10
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6f5c6ce6f27fd480800000000000000
+      internalID: -8872246336042541206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosionpink03_18
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 8
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c6423d40dc258d30800000000000000
+      internalID: 4432998681376081609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      explosionpink03_0: 588097769154151925
+      explosionpink03_1: 1263020543247045204
+      explosionpink03_10: 6468166864751615011
+      explosionpink03_11: -484174794991865948
+      explosionpink03_12: -8837596071335815345
+      explosionpink03_13: -6925810617390250384
+      explosionpink03_14: -1458675303136191504
+      explosionpink03_15: 4330621339952418521
+      explosionpink03_16: -1870542970975972543
+      explosionpink03_17: -8872246336042541206
+      explosionpink03_18: 4432998681376081609
+      explosionpink03_2: -8854796712208620275
+      explosionpink03_3: -747203913040899534
+      explosionpink03_4: -9006701946998523960
+      explosionpink03_5: 3530080804573178948
+      explosionpink03_6: -5735081744844675190
+      explosionpink03_7: -5223001527946139568
+      explosionpink03_8: -177261256371583413
+      explosionpink03_9: -7418407559207407592
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

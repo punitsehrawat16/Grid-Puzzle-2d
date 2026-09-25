@@ -1,0 +1,1001 @@
+fileFormatVersion: 2
+guid: 7bb2c88f253c98248a8c9bb3dffaeccc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 885125872205852314
+    second: explosiongreen04_0
+  - first:
+      213: -4732483379614670989
+    second: explosiongreen04_1
+  - first:
+      213: -2960427791322265760
+    second: explosiongreen04_2
+  - first:
+      213: -5579008648792833618
+    second: explosiongreen04_3
+  - first:
+      213: 5780723630923844489
+    second: explosiongreen04_4
+  - first:
+      213: 6856436614005340963
+    second: explosiongreen04_5
+  - first:
+      213: -8474236113404772457
+    second: explosiongreen04_6
+  - first:
+      213: 7474804345920770399
+    second: explosiongreen04_7
+  - first:
+      213: 3620209742202633870
+    second: explosiongreen04_8
+  - first:
+      213: 5517289121998053348
+    second: explosiongreen04_9
+  - first:
+      213: 5430716585319246920
+    second: explosiongreen04_10
+  - first:
+      213: -4347827296074315969
+    second: explosiongreen04_11
+  - first:
+      213: -324668344889487793
+    second: explosiongreen04_12
+  - first:
+      213: -5417202799313645432
+    second: explosiongreen04_13
+  - first:
+      213: -1273206462352284418
+    second: explosiongreen04_14
+  - first:
+      213: 2070137927190398488
+    second: explosiongreen04_15
+  - first:
+      213: -6222102853120600872
+    second: explosiongreen04_16
+  - first:
+      213: 3563912534755217504
+    second: explosiongreen04_17
+  - first:
+      213: -4018857854607173766
+    second: explosiongreen04_18
+  - first:
+      213: 7929694224918405754
+    second: explosiongreen04_19
+  - first:
+      213: -7336171211499587766
+    second: explosiongreen04_20
+  - first:
+      213: -7126879333348779909
+    second: explosiongreen04_21
+  - first:
+      213: -6483768211855950505
+    second: explosiongreen04_22
+  - first:
+      213: 1167908027168688749
+    second: explosiongreen04_23
+  - first:
+      213: 6214639163332560684
+    second: explosiongreen04_24
+  - first:
+      213: 1216842464450989674
+    second: explosiongreen04_25
+  - first:
+      213: -3863447497283703863
+    second: explosiongreen04_26
+  - first:
+      213: -2435799447800161303
+    second: explosiongreen04_27
+  - first:
+      213: 7893913502741455403
+    second: explosiongreen04_28
+  - first:
+      213: 3092535608573014843
+    second: explosiongreen04_29
+  - first:
+      213: -6750994181917403056
+    second: explosiongreen04_30
+  - first:
+      213: -8855592235886948237
+    second: explosiongreen04_31
+  - first:
+      213: -1459604222107616757
+    second: explosiongreen04_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: explosiongreen04_0
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 311
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e665a8a49984c00800000000000000
+      internalID: 885125872205852314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosiongreen04_1
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 309
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f90a4a077d25eb0800000000000000
+      internalID: -4732483379614670989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosiongreen04_2
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 294
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067ca0bdb927ae6d0800000000000000
+      internalID: -2960427791322265760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosiongreen04_3
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 259
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea10fd951316392b0800000000000000
+      internalID: -5579008648792833618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosiongreen04_4
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 270
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b0ce5c381493050800000000000000
+      internalID: 5780723630923844489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosiongreen04_5
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 255
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b35c206c4f62f50800000000000000
+      internalID: 6856436614005340963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosiongreen04_6
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 255
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79fb8bd3727756a80800000000000000
+      internalID: -8474236113404772457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosiongreen04_7
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 239
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51572c03f6dbb760800000000000000
+      internalID: 7474804345920770399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosiongreen04_8
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 220
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e756074919d3230800000000000000
+      internalID: 3620209742202633870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosiongreen04_9
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 213
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef12df7939519c40800000000000000
+      internalID: 5517289121998053348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosiongreen04_10
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 213
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ca6cf06f7cd5b40800000000000000
+      internalID: 5430716585319246920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosiongreen04_11
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 219
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f374eb82c1a69a3c0800000000000000
+      internalID: -4347827296074315969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosiongreen04_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 159
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e4c094cdb8e7bf0800000000000000
+      internalID: -324668344889487793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosiongreen04_13
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 170
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88098ae61ca32d4b0800000000000000
+      internalID: -5417202799313645432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosiongreen04_14
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 147
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4a2cdd779a45ee0800000000000000
+      internalID: -1273206462352284418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosiongreen04_15
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 155
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8164f3a0a7b9abc10800000000000000
+      internalID: 2070137927190398488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosiongreen04_16
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 155
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d45dc3db66a6a9a0800000000000000
+      internalID: -6222102853120600872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosiongreen04_17
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 138
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06095a4619f857130800000000000000
+      internalID: 3563912534755217504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosiongreen04_18
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 98
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77d955f2162a38c0800000000000000
+      internalID: -4018857854607173766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosiongreen04_19
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 98
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a726abd52eeeb0e60800000000000000
+      internalID: 7929694224918405754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosiongreen04_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 73
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a47be1fd62fa03a90800000000000000
+      internalID: -7336171211499587766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosiongreen04_21
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 64
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b785ca2910d381d90800000000000000
+      internalID: -7126879333348779909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosiongreen04_22
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 74
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d3b5ee9270506a0800000000000000
+      internalID: -6483768211855950505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosiongreen04_23
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 56
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a87b1b92e353010800000000000000
+      internalID: 1167908027168688749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosiongreen04_24
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 56
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c270ba97465de3650800000000000000
+      internalID: 6214639163332560684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosiongreen04_25
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 53
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e463936c713e010800000000000000
+      internalID: 1216842464450989674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosiongreen04_26
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 40
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb680c78f6426ac0800000000000000
+      internalID: -3863447497283703863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosiongreen04_27
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 29
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb57c1ce4d423ed0800000000000000
+      internalID: -2435799447800161303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosiongreen04_28
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 40
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22609ac180dc8d60800000000000000
+      internalID: 7893913502741455403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosiongreen04_29
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 20
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33bd3440c4eaea20800000000000000
+      internalID: 3092535608573014843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosiongreen04_30
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 17
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05895125f86af42a0800000000000000
+      internalID: -6750994181917403056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosiongreen04_31
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 17
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3705048c7cd9a1580800000000000000
+      internalID: -8855592235886948237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosiongreen04_32
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 25
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a7d9c71b17ebbe0800000000000000
+      internalID: -1459604222107616757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      explosiongreen04_0: 885125872205852314
+      explosiongreen04_1: -4732483379614670989
+      explosiongreen04_10: 5430716585319246920
+      explosiongreen04_11: -4347827296074315969
+      explosiongreen04_12: -324668344889487793
+      explosiongreen04_13: -5417202799313645432
+      explosiongreen04_14: -1273206462352284418
+      explosiongreen04_15: 2070137927190398488
+      explosiongreen04_16: -6222102853120600872
+      explosiongreen04_17: 3563912534755217504
+      explosiongreen04_18: -4018857854607173766
+      explosiongreen04_19: 7929694224918405754
+      explosiongreen04_2: -2960427791322265760
+      explosiongreen04_20: -7336171211499587766
+      explosiongreen04_21: -7126879333348779909
+      explosiongreen04_22: -6483768211855950505
+      explosiongreen04_23: 1167908027168688749
+      explosiongreen04_24: 6214639163332560684
+      explosiongreen04_25: 1216842464450989674
+      explosiongreen04_26: -3863447497283703863
+      explosiongreen04_27: -2435799447800161303
+      explosiongreen04_28: 7893913502741455403
+      explosiongreen04_29: 3092535608573014843
+      explosiongreen04_3: -5579008648792833618
+      explosiongreen04_30: -6750994181917403056
+      explosiongreen04_31: -8855592235886948237
+      explosiongreen04_32: -1459604222107616757
+      explosiongreen04_4: 5780723630923844489
+      explosiongreen04_5: 6856436614005340963
+      explosiongreen04_6: -8474236113404772457
+      explosiongreen04_7: 7474804345920770399
+      explosiongreen04_8: 3620209742202633870
+      explosiongreen04_9: 5517289121998053348
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

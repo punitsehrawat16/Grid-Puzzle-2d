@@ -1,104 +1,198 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class BoardController : MonoBehaviour
 {
+    [Header("Systems")]
     [SerializeField] private Board board;
     [SerializeField] private BoardRenderer boardRenderer;
+    [SerializeField] private CellPool cellPool;
     [SerializeField] private InputHandler inputHandler;
+    [SerializeField] private ScoreManager scoreManager;
+
+    [Header("Animation")]
+    [SerializeField] private float swapDuration = 0.2f;
 
     private MatchDetector matchDetector;
 
+    private bool isBusy;
+
     private void Start()
     {
+        // 8x8 = 64 cells.
+        // Pre-create 64 of every color.
+        cellPool.Initialize(
+            board.Width * board.Height
+        );
+
         board.Initialize();
 
-        matchDetector = new MatchDetector(board);
+        matchDetector =
+            new MatchDetector(board);
 
-        boardRenderer.Render(board);
-
-        CheckAndRemoveMatches();
+        boardRenderer.Initialize(board);
     }
 
     private void Update()
     {
+        if (isBusy)
+            return;
+
         if (!inputHandler.CheckInput())
             return;
 
-        Cell cell = inputHandler.CurrentCell;
+        Cell selectedCell =
+            inputHandler.CurrentCell;
 
-        if (cell == null)
+        if (selectedCell == null)
             return;
 
-        Vector2Int direction = Vector2Int.RoundToInt(
-            inputHandler.Direction
-        );
+        Vector2Int direction =
+            Vector2Int.RoundToInt(
+                inputHandler.Direction
+            );
 
-        bool swapped = board.TrySwap(
-            cell.GridPosition,
+        StartCoroutine(
+            TryMove(
+                selectedCell,
+                direction
+            )
+        );
+    }
+
+    private IEnumerator TryMove(
+        Cell selectedCell,
+        Vector2Int direction)
+    {
+        isBusy = true;
+
+        Vector2Int firstPosition =
+            selectedCell.GridPosition;
+
+        Vector2Int secondPosition =
+            firstPosition + direction;
+
+        if (!board.IsInside(
+                secondPosition.x,
+                secondPosition.y))
+        {
+            isBusy = false;
+            yield break;
+        }
+
+        Cell secondCell =
+            boardRenderer.GetVisual(
+                secondPosition
+            );
+
+        if (secondCell == null)
+        {
+            isBusy = false;
+            yield break;
+        }
+
+        // Change logical board.
+        board.TrySwap(
+            firstPosition,
             direction
         );
 
-        if (swapped)
-        {
-            boardRenderer.Render(board);
-
-            Debug.Log("Swap successful!");
-        }
-    }
-
-    private void CheckAndRemoveMatches()
-    {
+        // Check whether swap creates a match.
         List<Vector2Int> matches =
             matchDetector.FindMatches();
 
-        if (matches.Count == 0)
+        bool successfulMove =
+            matches.Count > 0;
+
+        // Animate the swap.
+        yield return StartCoroutine(
+            boardRenderer.AnimateSwap(
+                selectedCell,
+                secondCell,
+                firstPosition,
+                secondPosition,
+                swapDuration
+            )
+        );
+
+        // Update visual grid references.
+        boardRenderer.SwapVisualReferences(
+            firstPosition,
+            secondPosition
+        );
+
+        if (!successfulMove)
         {
-            Debug.Log("No matches found.");
-            return;
-        }
-
-        Debug.Log($"Matches found: {matches.Count}");
-
-        RemoveMatches(matches);
-
-        boardRenderer.Render(board);
-
-        RefillBoard();
-
-        boardRenderer.Render(board);
-    }
-
-    private void RemoveMatches(List<Vector2Int> matches)
-    {
-        foreach (Vector2Int position in matches)
-        {
-            board.SetCell(
-                position.x,
-                position.y,
-                CellType.Empty
+            // Undo logical swap.
+            board.TrySwap(
+                secondPosition,
+                -direction
             );
+
+            // Animate candies back.
+            yield return StartCoroutine(
+                boardRenderer.AnimateSwap(
+                    selectedCell,
+                    secondCell,
+                    secondPosition,
+                    firstPosition,
+                    swapDuration
+                )
+            );
+
+            boardRenderer.SwapVisualReferences(
+                firstPosition,
+                secondPosition
+            );
+
+            isBusy = false;
+
+            yield break;
         }
+
+        // Successful match.
+        scoreManager.AddScore(120);
+
+        yield return StartCoroutine(
+            ResolveMatches()
+        );
+
+        isBusy = false;
     }
 
-    private void RefillBoard()
+    private IEnumerator ResolveMatches()
     {
-        for (int x = 0; x < board.Width; x++)
+        while (true)
         {
-            for (int y = 0; y < board.Height; y++)
-            {
-                if (board.GetCell(x, y).Type == CellType.Empty)
-                {
-                    CellType newType =
-                        (CellType)Random.Range(1, 5);
+            List<Vector2Int> matches =
+                matchDetector.FindMatches();
 
-                    board.SetCell(
-                        x,
-                        y,
-                        newType
-                    );
-                }
-            }
+            if (matches.Count == 0)
+                yield break;
+
+            // Disable and return matched candies.
+            boardRenderer.RemoveMatches(
+                matches
+            );
+
+            // Remove from logical board.
+            board.ClearMatches(
+                matches
+            );
+
+            yield return null;
+
+            // Gravity + new candies.
+            CollapseResult result =
+                board.CollapseAndFill();
+
+            yield return StartCoroutine(
+                boardRenderer.AnimateCollapse(
+                    result,
+                    board.Height
+                )
+            );
         }
     }
 }

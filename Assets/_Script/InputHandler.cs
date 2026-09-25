@@ -44,27 +44,32 @@ public class InputHandler : MonoBehaviour
 
     private void StartSwipe()
     {
+        CurrentCell = null;
+
         Vector2 screenPosition =
             Mouse.current.position.ReadValue();
 
         Vector2 worldPosition =
-            mainCamera.ScreenToWorldPoint(screenPosition);
+            mainCamera.ScreenToWorldPoint(
+                screenPosition
+            );
 
         Collider2D hit =
-            Physics2D.OverlapPoint(worldPosition);
+            Physics2D.OverlapPoint(
+                worldPosition
+            );
 
         if (hit == null)
-        {
-            CurrentCell = null;
             return;
-        }
 
-        CurrentCell = hit.GetComponent<Cell>();
+        CurrentCell =
+            hit.GetComponent<Cell>();
 
         if (CurrentCell == null)
             return;
 
-        startWorldPosition = worldPosition;
+        startWorldPosition =
+            worldPosition;
     }
 
     private bool EndSwipe()
@@ -76,33 +81,37 @@ public class InputHandler : MonoBehaviour
             Mouse.current.position.ReadValue();
 
         Vector2 endWorldPosition =
-            mainCamera.ScreenToWorldPoint(screenPosition);
+            mainCamera.ScreenToWorldPoint(
+                screenPosition
+            );
 
         Vector2 swipe =
-            endWorldPosition - startWorldPosition;
+            endWorldPosition -
+            startWorldPosition;
 
-        if (swipe.magnitude < minimumSwipeDistance)
+        if (swipe.magnitude <
+            minimumSwipeDistance)
         {
             CurrentCell = null;
             return false;
         }
 
-        Direction = GetCardinalDirection(swipe);
-
-        return true;
-    }
-
-    private Vector2 GetCardinalDirection(Vector2 swipe)
-    {
-        if (Mathf.Abs(swipe.x) > Mathf.Abs(swipe.y))
+        if (Mathf.Abs(swipe.x) >
+            Mathf.Abs(swipe.y))
         {
-            return swipe.x > 0
-                ? Vector2.right
-                : Vector2.left;
+            Direction =
+                swipe.x > 0
+                    ? Vector2.right
+                    : Vector2.left;
+        }
+        else
+        {
+            Direction =
+                swipe.y > 0
+                    ? Vector2.up
+                    : Vector2.down;
         }
 
-        return swipe.y > 0
-            ? Vector2.up
-            : Vector2.down;
+        return true;
     }
 }

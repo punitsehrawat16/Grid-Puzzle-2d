@@ -12,89 +12,40 @@ public class MatchDetector
 
     public List<Vector2Int> FindMatches()
     {
-        HashSet<Vector2Int> matches = new HashSet<Vector2Int>();
+        HashSet<Vector2Int> matches =
+            new HashSet<Vector2Int>();
 
-        FindHorizontalMatches(matches);
-        FindVerticalMatches(matches);
-
-        return new List<Vector2Int>(matches);
-    }
-
-    private void FindHorizontalMatches(HashSet<Vector2Int> matches)
-    {
-        for (int y = 0; y < board.Height; y++)
-        {
-            int x = 0;
-
-            while (x < board.Width)
-            {
-                CellType type = board.GetCell(x, y).Type;
-
-                if (type == CellType.Empty)
-                {
-                    x++;
-                    continue;
-                }
-
-                int startX = x;
-
-                while (x < board.Width &&
-                       board.GetCell(x, y).Type == type)
-                {
-                    x++;
-                }
-
-                int length = x - startX;
-
-                if (length >= 3)
-                {
-                    for (int matchX = startX; matchX < x; matchX++)
-                    {
-                        matches.Add(
-                            new Vector2Int(matchX, y)
-                        );
-                    }
-                }
-            }
-        }
-    }
-
-    private void FindVerticalMatches(HashSet<Vector2Int> matches)
-    {
         for (int x = 0; x < board.Width; x++)
         {
-            int y = 0;
-
-            while (y < board.Height)
+            for (int y = 0; y < board.Height; y++)
             {
                 CellType type = board.GetCell(x, y).Type;
 
                 if (type == CellType.Empty)
-                {
-                    y++;
                     continue;
+
+                // Horizontal
+                if (x + 2 < board.Width &&
+                    board.GetCell(x + 1, y).Type == type &&
+                    board.GetCell(x + 2, y).Type == type)
+                {
+                    matches.Add(new Vector2Int(x, y));
+                    matches.Add(new Vector2Int(x + 1, y));
+                    matches.Add(new Vector2Int(x + 2, y));
                 }
 
-                int startY = y;
-
-                while (y < board.Height &&
-                       board.GetCell(x, y).Type == type)
+                // Vertical
+                if (y + 2 < board.Height &&
+                    board.GetCell(x, y + 1).Type == type &&
+                    board.GetCell(x, y + 2).Type == type)
                 {
-                    y++;
-                }
-
-                int length = y - startY;
-
-                if (length >= 3)
-                {
-                    for (int matchY = startY; matchY < y; matchY++)
-                    {
-                        matches.Add(
-                            new Vector2Int(x, matchY)
-                        );
-                    }
+                    matches.Add(new Vector2Int(x, y));
+                    matches.Add(new Vector2Int(x, y + 1));
+                    matches.Add(new Vector2Int(x, y + 2));
                 }
             }
         }
+
+        return new List<Vector2Int>(matches);
     }
 }

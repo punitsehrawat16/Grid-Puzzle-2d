@@ -274,9 +274,6 @@ flowchart TD
 | Score target and win condition | Implemented | `ScoreManager` emits `OnWin` when the target is reached. |
 | Multi-level progression | Implemented | `UiManager` loads the next enabled build scene and wraps at the end. |
 | No-valid-move handling | Partially implemented | Possible moves are detected, but shuffle/recovery is not implemented. |
-| Loss/game-over condition | Not implemented | `GameStateManager` defines `OnGame` and `OnWin` only. |
-| Move counter or move limit | Not implemented | No move-counting system exists. |
-| Keyboard, gamepad, or touch gameplay input | Not implemented | Gameplay reads the mouse-left-button action only. |
 
 ## Author
 
